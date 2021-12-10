@@ -4,8 +4,7 @@ import Header from "../../Components/Header"
 import { moviesApi } from "../../services/api";
 import IMovie from "../../types/IMovie";
 
-export default function MovieDetail( movies } ): JSX.Element {   
-        
+export default function MovieDetail( {movies}: {movies: IMovie[]} ): JSX.Element {               
     return (
         <>
             <Header />
