@@ -14,8 +14,8 @@ export default function MovieCard(props: Props) {
         <div className="flex flex-col p-3 bg-gray-200 m-1 shadow-md w-32 sm:w-40 lg:w-48 xl:w-56 flex-1 hover:scale-[1.02] transition">
             <Link href={"/movie/" + movie.slug}>
                 <a>
-                    <div className="relative image-container h-36 aspect-h-1 aspect-w-1 sm:aspect-h-16 sm:aspect-w-9">
-                        <Image layout="fill" objectFit="cover" alt={movie.slug} src={movie.poster} className="poster-image" />
+                    <div className="relative image-container h-36 aspect-h-3 aspect-w-2">
+                        <Image layout="fill" objectFit="contain" alt={movie.slug} src={movie.poster} className="poster-image" />
                     </div>
                 </a>
             </Link>

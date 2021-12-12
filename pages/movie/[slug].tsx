@@ -13,11 +13,11 @@ export default function MovieDetail(movie: IMovie): JSX.Element {
             <div className="bg-[#acacac] min-h-screen">
                 <div className="container flex mx-auto pt-20 px-4 pb-28 justify-around">
                     <div className="flex flex-col pt-10 md:flex-row md:h-full md:items-center md:justify-center md:w-screen md:gap-6 xl:gap-8">
-                        <div className="mb-4">
+                        <div className="mb-4 md:w-96">
                             <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl max-w-sm">{movie.title}</h1>
                             <div className="my-2 flex gap-1 md:text-lg"> <p>{movie.released_on.slice(0, 4)}</p><span>&#183;</span><p className="text-[12px] bg-black text-white rounded-full p-1">{movie.classification}</p><span>&#183;</span><p>{movie.length}</p> </div>
-                            <div className="relative image-container aspect-h-16 aspect-w-9 md:h-40">
-                                <Image layout="fill" objectFit="cover" alt={movie.slug} src={movie.poster} className="poster-image" />
+                            <div className="relative image-container aspect-h-3 aspect-w-2">
+                                <Image layout="fill" objectFit="contain" alt={movie.slug} src={movie.poster} className="poster-image" />
                             </div>
                         </div>
                         <div className="flex flex-col text-xl xl:text-2xl">
