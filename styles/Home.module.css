@@ -1,0 +1,7 @@
+.customHeight {
+  height: calc(100vh - 80px);
+}
+
+/* .slider > div {
+  width: auto !important;
+} */
