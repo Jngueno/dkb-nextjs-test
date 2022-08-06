@@ -1,47 +1,27 @@
-### Objective
+# Next.js + Tailwind CSS Example
 
-Your assignment is to implement a movie streaming dashboard using TypeScript and NextJS.
+This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-Please do a responsive website !!!
+## Deploy your own
 
-### Brief
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-You are the owner of a movie theater in **Douala City,** on the Wookiee homeworld of Cameroun. Your customers are bored with the never changing selection and are asking for something completely different - they want to see what's playing on Earth. Wookies are the main exporter of Computer Technology for the New Republic so naturally you roll up your sleeves and get to work. You quickly scribble down some notes and after a few hours of relentless work you have a design in mind.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-### Tasks
+## How to use
 
--   Implement assignment using:
-    -   Language: **TypeScript**
-    -   Framework: **NextJS**
--   Build out the project to the designs inside the `/Designs` folder
--   Connect your application to the **CodeSubmit Movie Database** at `https://wookie.codesubmit.io/movies`
--   For authentication pass the `"Authorization: Bearer Wookie2021"` header
--   Parse the API response and display the results as outlined in the design. **Make sure to group movies by categories**.
--   Implement a detail view for the movies in the list
--   Make sure that inking to detail pages as well as bookmarking works as expected
--   Implement search by connecting to `https://wookie.codesubmit.io/movies?q=<search_term>`
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-### Deliverables
+```bash
+npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
 
-Make sure to include all source code in the repository. To make reviewing easier, include a fully built version of your assignment in a folder named **public**.
+```bash
+yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
 
-### Evaluation Criteria
+```bash
+pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+```
 
--   **TypeScript** best practices
--   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program.
--   Show us your work through your commit history
--   Completeness: did you complete the features?
--   Correctness: does the functionality act in sensible, thought-out ways?
--   Maintainability: is it written in a clean, maintainable way?
--   Testing: is the system adequately tested?
-
-### CodeSubmit
-
-Please organize, design, test and document your code as if it were
-going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
-
-All the best and happy coding,
-
-#### Dikouba team
-
-Credits : Technical Assesment from Finn Gmbh Team
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
